@@ -1,10 +1,13 @@
 const app = Vue.createApp({
     data(){
         return {
-            product:'Boots',
+            product:'Shoes',
             description:'This is boots description',
             image:'./assets/images/socks_green.jpg',
-            link:'https://www.camt.cmu.ac.th/index.php/th/'
+            link:'https://www.camt.cmu.ac.th/index.php/th/',
+            inStock:true,
+            inventory:10,
+            onSale:false
         }
     }
 })
